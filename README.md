@@ -22,12 +22,12 @@ git clone https://github.com/roots/roots-example-project.com.git
 ```
 
 3 - Install Ansible
-  ##### - The preferred way to install ansible on a Mac is via pip.
+  ###### - The preferred way to install ansible on a Mac is via pip.
   ```
   sudo easy_install pip
   sudo pip install ansible
   ```
-  ##### - Problem while installing ?
+  ###### - Problem while installing ?
   [Link 1](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx)
   
   [Link 2](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
