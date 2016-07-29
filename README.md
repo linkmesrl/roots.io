@@ -34,11 +34,7 @@ sudo pip install ansible
   [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) ||
   [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
 
-<br>
-
 4 - Install Virtualbox => [Download](https://www.virtualbox.org/wiki/Downloads)
-
-<br>
 
 5 - Install Vagrant => [Download](https://www.vagrantup.com/downloads.html)
 
