@@ -32,6 +32,6 @@ git clone https://github.com/roots/roots-example-project.com.git
 
 ###### Problems while installing? 
   
-  [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx)
+  [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) || 
   [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x) 
 
