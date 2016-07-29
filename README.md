@@ -1,7 +1,7 @@
 # Bedrock
 Open-source tools for WordPress application development.
 
-# Requirements
+## Requirements
 At a minimum you need to have:
 
 1. [Node.js](https://nodejs.org/en/download/) >= 0.12.x
@@ -41,6 +41,18 @@ git clone https://github.com/roots/roots-example-project.com.git
 
 5 - Install Vagrant => [Download](https://www.vagrantup.com/downloads.html)
 
-**Latest Vagrant version (at the moment 1.8.4) may cause some problems, if so try to install previous ones => [Releases](https://releases.hashicorp.com/vagrant/)**
+**Latest Vagrant version (at the moment 1.8.4) may cause some problems, if so try to install previous ones [Old Releases](https://releases.hashicorp.com/vagrant/)**
 
-6 - 
+6 - Install [vagrant-bindfs](https://github.com/gael-ian/vagrant-bindfs)
+
+#####Vagrant-bindfs is distributed as a Ruby gem. You can install it as any other Vagrant plugin with:
+  ```
+  vagrant plugin install vagrant-bindfs
+  ```
+
+7- Install [vagrant-hostmanager](https://github.com/devopsgroup-io/vagrant-hostmanager)
+
+```
+vagrant plugin install vagrant-hostmanager
+```
+
