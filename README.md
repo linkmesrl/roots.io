@@ -35,10 +35,12 @@ git clone https://github.com/roots/roots-example-project.com.git
   [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) ||
   [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
 
+
 4 - Install Virtualbox => [Download](https://www.virtualbox.org/wiki/Downloads)
+
 
 5 - Install Vagrant => [Download](https://www.vagrantup.com/downloads.html)
 
-**Latest Vagrant version (1.8.4) may cause some problems, if so try install lower ones [Releases](https://releases.hashicorp.com/vagrant/)**
+**Latest Vagrant version (at the moment 1.8.4) may cause some problems, if so try to install previous ones => [Releases](https://releases.hashicorp.com/vagrant/)**
 
 6 - 
