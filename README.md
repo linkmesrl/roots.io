@@ -1,12 +1,12 @@
-# roots.io
+# Bedrock
 Open-source tools for WordPress application development.
 
 # Requirements
 At a minimum you need to have:
 
-1. Node.js >= 0.12.x
-2. Gulp >= 3.8.10
-3. Bower >= 1.3.12
+1. [Node.js](https://nodejs.org/en/download/) >= 0.12.x
+2. [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) >= 3.8.10
+3. [Bower](https://bower.io/#install-bower) >= 1.3.12
 
 ## Setup Environment - Instructions based on Mac OSX
 
@@ -30,15 +30,15 @@ git clone https://github.com/roots/roots-example-project.com.git
   sudo pip install ansible
   ```
 
-###### Problems while installing? 
-  
-  [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) || 
-  [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x) 
+###### Problems while installing?
 
-4 - Install Virtualbox
+  [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) ||
+  [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
 
-  [Download](https://www.virtualbox.org/wiki/Downloads)
+4 - Install Virtualbox => [Download](https://www.virtualbox.org/wiki/Downloads)
 
-5 - Install Vagrant
+5 - Install Vagrant => [Download](https://www.vagrantup.com/downloads.html)
 
-  [Download](https://www.vagrantup.com/downloads.html)
+**Latest Vagrant version (1.8.4) may cause some problems, if so try install lower ones [Releases](https://releases.hashicorp.com/vagrant/)**
+
+6 - 
