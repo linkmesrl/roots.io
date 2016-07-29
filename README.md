@@ -24,20 +24,21 @@ git clone https://github.com/roots/roots-example-project.com.git
 3 - Install Ansible
 
 ###### The preferred way to install ansible on a Mac is via pip.
-
-  ```
-  sudo easy_install pip
-  sudo pip install ansible
-  ```
+```
+sudo easy_install pip
+sudo pip install ansible
+```
 
 ###### Problems while installing?
 
   [Ansible Docs](http://docs.ansible.com/ansible/intro_installation.html#latest-releases-on-mac-osx) ||
   [Stackoverflow](http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x)
 
+<br>
 
 4 - Install Virtualbox => [Download](https://www.virtualbox.org/wiki/Downloads)
 
+<br>
 
 5 - Install Vagrant => [Download](https://www.vagrantup.com/downloads.html)
 
@@ -46,13 +47,12 @@ git clone https://github.com/roots/roots-example-project.com.git
 6 - Install [vagrant-bindfs](https://github.com/gael-ian/vagrant-bindfs)
 
 #####Vagrant-bindfs is distributed as a Ruby gem. You can install it as any other Vagrant plugin with:
-  ```
-  vagrant plugin install vagrant-bindfs
-  ```
+```
+vagrant plugin install vagrant-bindfs
+```
 
-7- Install [vagrant-hostmanager](https://github.com/devopsgroup-io/vagrant-hostmanager)
+7 - Install [vagrant-hostmanager](https://github.com/devopsgroup-io/vagrant-hostmanager)
 
 ```
 vagrant plugin install vagrant-hostmanager
 ```
-
