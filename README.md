@@ -8,7 +8,7 @@ At a minimum you need to have:
 2. [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) >= 3.8.10
 3. [Bower](https://bower.io/#install-bower) >= 1.3.12
 
-## Setup Environment - Instructions based on Mac OSX
+## Local development setup - Instructions based on Mac OSX
 
 1 - Open the terminal and create your own directory.
 ```
@@ -52,3 +52,33 @@ vagrant plugin install vagrant-bindfs
 ```
 vagrant plugin install vagrant-hostmanager
 ```
+
+8 - Install external Ansible roles/packages
+
+```
+cd roots-example-project.com/trellis
+ansible-galaxy install -r requirements.yml
+```
+
+9 - Install theme components
+
+```
+cd roots-example-project.com/site/web/app/themes/sage
+npm install
+bower install
+gulp
+```
+
+10 - Fire up the server
+
+```
+cd roots-example-project.com/trellis
+vagrant up
+```
+##### Note: to shut down the server:
+
+```
+vagrant halt
+```
+
+11 - Finally open your browser at [roots-example-project.dev](http://roots-example-project.dev)
